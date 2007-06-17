@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1925
+
+This complier plugin sets up texexec with appropriate options as the make program. To use this do
+
+:compiler texexec
+:make <options> <filename>
+
+where <options> are additional options that you want to pass to texexec. If you always want to use this compiler with context files, add 
+
+compiler texexec
+
+in your .vim/ftplugin/context.vim file.
